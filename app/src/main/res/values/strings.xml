@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Video Floating Window</string>
+
+    <string name="title_activity_notification">Config. notificação</string>
+
+    <string name="notification_ok">"As notificações em bolha estão ativadas para esse aplicativo."</string>
+    <string name="notification_denied">"As notificações em bolha não estão ativadas ainda. Para obter mais desse aplicativo, ative-as clicando no botão abaixo e atualizando as configurações que serão apresentadas."</string>
+</resources>

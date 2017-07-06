@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242525"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openFloatingWindowActivity"
+        android:text="Floating Window Permission" />
+
+    <Button
+        android:id="@+id/bt_open_vfw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openVideoFloatingWindow"
+        android:text="Abrir Vídeo Floating Window" />
+
+    <Button
+        android:id="@+id/bt_close_vfw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="closeVideoFloatingWindow"
+        android:text="Fechar Vídeo Floating Window" />
+</LinearLayout>
